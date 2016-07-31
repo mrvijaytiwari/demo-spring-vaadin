@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-spring-boot</artifactId>
-			<version>1.0.0.beta1</version>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
@@ -69,5 +69,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	 <repositories>
+    <repository>
+      <id>my-repo2</id>
+      <name>Vaadin Deshboard repo</name>
+      <url>http://vaadin.com/nexus/content/repositories/vaadin-addons/</url>
+    </repository>
+  </repositories>
 
 </project>
